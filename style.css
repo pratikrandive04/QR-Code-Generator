@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+:root{
+    --blue : #74c1ff;
+    --darkblue: rgb(14, 92, 236);
+    --gradient: linear-gradient(to right ,var(--blue) ,var(--darkblue))
+}
+body{
+    background-image: var(--gradient);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    width: 382px;
+    height: 382px;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    accent-color: var(--darkblue);
+}
+
+.qrimg{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 200px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+}
+
+.input{
+    /* border: 2px solid red; */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    outline: none;
+    text-decoration: none;
+}
+#input{
+    outline: none;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 4px;
+}
+
+#generatebtn{
+    /* border: 2px solid red; */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    border: none;
+    font-family: 'Libre Baskerville', serif;
+    background-image: var(--gradient);
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
